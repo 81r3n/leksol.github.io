@@ -4,14 +4,12 @@ $(document).ready(function() {
             var element = document.querySelector(".navbar");
             element.classList.add("shadowed");
             var logo = document.querySelector(".logo");
-            logo.classList.remove("position");
             logo.classList.add("change");
 
         } else {
             var element = document.querySelector(".navbar");
             element.classList.remove('shadowed');
             var logo = document.querySelector(".logo");
-            logo.classList.add("position");
             logo.classList.remove("change");
 
         }
