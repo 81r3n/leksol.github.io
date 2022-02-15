@@ -36,8 +36,8 @@ let aboutus = gsap.timeline({
         trigger: ".secondary-heading.animated",
         start: "top 70%",
         end: "=+200 bottom",
-        toggleActions: "play none none reverse",
-        markers: true
+        toggleActions: "play none none reverse"
+
     },
     defaults: {
         ease: "power1.inOut"
@@ -169,18 +169,6 @@ mvSection.to(".mv-section-heading span", {
 
 
     })
-    .from(".mv-card", { duration: 2, y: 35, opacity: 0, stagger: 0.2 }, "-=1.1");
+    .from(".mv-card", { duration: 2, y: 35, opacity: 0, stagger: 0.2 }, "-=1.6")
 
-gsap.from(".footer-box", {
-    duration: 2.5,
-    opacity: 0,
-    scale: 0.9,
-    ease: "power3.out",
-    scrollTrigger: {
-        trigger: ".footer-box",
-        start: "-200px 70%",
-        end: "bottom bottom",
-        toggleActions: "play none none reset"
-
-    }
-});
+    .from(".footer-box", { duration: 2, opacity: 0, scale: 0.95, ease: "slowMo.out" }, '-=2');
