@@ -457,7 +457,7 @@ p.mv-card-description {
     position: fixed;
     top: 60%;
     transform: translateY(-60%);
-    right: 30px;
+    right: 75px;
     opacity: 0;
 
 }
