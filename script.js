@@ -2,10 +2,18 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             var element = document.querySelector(".navbar");
-            element.classList.add('shadowed');
+            element.classList.add("shadowed");
+            var logo = document.querySelector(".logo");
+            logo.classList.remove("position");
+            logo.classList.add("faded");
+
         } else {
             var element = document.querySelector(".navbar");
             element.classList.remove('shadowed');
+            var logo = document.querySelector(".logo");
+            logo.classList.add("position");
+            logo.classList.remove("faded");
+
         }
     });
 });
@@ -113,7 +121,7 @@ gsap.to(".businessText", {
     opacity: 1,
     display: 'block',
     ease: "slowMo",
-    right: 80,
+    right: 75,
     scrollTrigger: {
         trigger: ".triggerBusinessText",
         start: "top center",

@@ -26,9 +26,9 @@
 
 <body>
     <!-- <section class="top-bar"></section> -->
-    <nav class="navbar navbar-expand-lg navbar-light py-2" style="background-color:#fff;">
+    <nav class="navbar navbar-expand-lg navbar-light py-2 sticky-top" style="background-color:#fff;">
         <div class="container-lg">
-            <a class="navbar-brand p-0" href="#"><img class="logo" src="assets/images/logo.png" alt="company logo"></a>
+            <a class="navbar-brand p-0" href="#"><img class="logo position" src="assets/images/logo.png" alt="company logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,16 +38,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#about-us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#business">Our Businesses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#mission-vission">Our Mission, Vission</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -133,14 +133,13 @@
     <!-- spacing -->
     <section class="section-spacing"></section>
     <!-- about us -->
-    <section style="background-color: #404040; padding-block:80px; position: relative; overflow: hidden;">
+    <section id="about-us" style="background-color: #404040; padding-block:120px; position: relative; overflow: hidden;">
         <div class="container h-100">
             <div class="row h-100 justify-content-center align-items-center" style="position:relative; z-index:300;">
-                <div class="col-2 d-flex justify-content-end">
-                    <div style="background-color:#cacaca; height:250px; width: 8px;">
-                    </div>
+                <div class="col-3 d-flex justify-content-end align-items-center">
+                    <img class="h-100 w-75" src="assets/images/avatar.jpg" alt="">
                 </div>
-                <div class="col-8 d-flex align-items-center justify-content-center" style="gap:70px">
+                <div class="col-7 d-flex align-items-center justify-content-center" style="gap:70px">
                     <div class="px-5">
                         <h2 class="secondary-heading animated">
                             <span>A</span>
@@ -158,12 +157,12 @@
                 </div>
             </div>
             <div style="position:absolute; background-position: center; top: 0; left: -30px; right:60%; bottom:0;">
-                <img style="opacity: 0.18;" class="w-100 h-100" src="assets/images/window-frame2.png" alt="">
+                <img style="opacity: 0.1;" class="w-100 h-100" src="assets/images/window-frame2.png" alt="">
             </div>
         </div>
     </section>
     <!-- our buinesses -->
-    <section class="container-fluid" style="background-color: #404040; position: relative; padding-block:50px;">
+    <section id="business" class="container-fluid" style="background-color: #404040; position: relative; padding-block:50px;">
         <!-- business item 1 -->
         <div class="row item py-5 h-100 d-flex justify-content-center align-items-center" style="position: relative; z-index: 500;">
             <div class="col-4">
@@ -314,7 +313,7 @@
         </div>
     </section>
     <!-- mission vision -->
-    <section style="background-color: #404040; padding-block:80px;">
+    <section id="mission-vission" style="background-color: #404040; padding-block:80px;">
         <h2 class="mv-section-heading text-center">
             <span>E</span>
             <span>S</span>
