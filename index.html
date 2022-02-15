@@ -166,6 +166,26 @@
     </section>
     <!-- our buinesses -->
     <section id="business" class="container-fluid" style="background-color: #404040; position: relative; padding-block:50px;">
+        <!-- side title -->
+        <div class="businessText">
+            <h2 class="secondary-heading  text-center d-none d-lg-block">
+                <span>o</span>
+                <span>u</span>
+                <span>r</span>
+            </h2>
+            <h2 class="secondary-heading  text-center d-none d-lg-block">
+                <span>b</span>
+                <span>u</span>
+                <span>s</span>
+                <span>i</span>
+                <span>n</span>
+                <span>e</span>
+                <span>s</span>
+                <span>s</span>
+                <span>e</span>
+                <span>s</span>
+            </h2>
+        </div>
         <!-- business item 1 -->
         <div class="row item py-5 h-100 d-flex justify-content-center align-items-center" style="position: relative; z-index: 500;">
             <div class="col-4">
@@ -192,7 +212,7 @@
                             <span>S</span>
                         </h3>
                         <p class="description dark business">Authorized and sole distributor for Royal Enfield Motorcycles, Service, Accessories, Apparels, Spares and Lubricant. Today, Leksol Automobiles is in the top 3 in terms of sales in the two-wheeler industry in Bhutan.</p>
-                        <a class="my-btn dark businessBtn business" href="#">Learn more<i class="fa-solid fa-arrow-right-long ps-2"></i></a>
+                        <a class="my-btn dark businessBtn business" data-bs-target="#modal-b1" data-bs-toggle="modal" type="button">Learn more<i class="fa-solid fa-arrow-right-long ps-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -295,25 +315,6 @@
         </div>
         <div class="left-white" style="width: 75%; position: absolute; top: 0; left:0; bottom:0; background-color:#fff; z-index: 400;">
         </div>
-        <div class="businessText">
-            <h2 class="secondary-heading  text-center d-none d-lg-block">
-                <span>o</span>
-                <span>u</span>
-                <span>r</span>
-            </h2>
-            <h2 class="secondary-heading  text-center d-none d-lg-block">
-                <span>b</span>
-                <span>u</span>
-                <span>s</span>
-                <span>i</span>
-                <span>n</span>
-                <span>e</span>
-                <span>s</span>
-                <span>s</span>
-                <span>e</span>
-                <span>s</span>
-            </h2>
-        </div>
     </section>
     <!-- mission vision -->
     <section id="mission-vission" style="background-color: #404040; padding-block:80px;">
@@ -397,20 +398,40 @@
             </div>
         </div>
     </footer>
+    <!-- Business details modals -->
+    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="modal-b1" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content media p-3 p-lg-5">
+                <div class="modal-header">
+                    <div class="container">
+                        <h3 class="modal-title business-heading text-center">
+                            LEKSOL AUTOMOBILES
+                        </h3>
+                    </div>
+                    <!-- modal close button: -->
+                    <span aria-label="Close" data-bs-dismiss="modal" title="close" type="button">
+                        <i class="far fa-times-circle" style="font-size: 30px; color:grey;">
+                        </i>
+                    </span>
+                </div>`
+                <div class="modal-body container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dicta nobis et temporibus beatae corporis quidem nesciunt ratione corrupti ipsa!</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQ -->
     <script src="assets/js/jquery.min.js">
     </script>
     <!-- bootstrap js -->
     <script src="assets/js/bootstrap.min.js">
     </script>
-    <!-- gsap animation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
     <!-- popper -->
     <script crossorigin="anonymous" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js">
     </script>
+    <!-- gsap animation -->
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
     <!-- custom js -->
     <script src="script.js"></script>
     <!-- aos animation -->

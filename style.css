@@ -58,8 +58,8 @@ html {
 
 .navbar-light .navbar-nav .nav-link.active:hover,
 .navbar-light .navbar-nav .show>.nav-link:hover {
+    color: #41d2f2;
 
-    transform: scale(1);
 
 
 
@@ -428,7 +428,7 @@ p.mv-card-description {
     position: absolute;
     inset: 0;
     background-color: #000;
-    opacity: 0.25;
+    opacity: 0.3;
 
 
     display: flex;
