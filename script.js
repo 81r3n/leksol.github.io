@@ -33,11 +33,6 @@ tl.from('#carouselExampleControls', { duration: 3, x: 100, y: -100, opacity: 0 }
     .to(".scroll-arrow .fa-solid, .scroll-arrow span", { duration: 1, y: 20, opacity: 1, repeat: -1, yoyo: true, ease: "ease-out" }, "<");
 
 
-
-
-
-
-
 // about us title fade stagger
 
 let aboutus = gsap.timeline({
@@ -107,9 +102,6 @@ businessItems.forEach(function(item, index) {
             duration: 1,
             opacity: 0,
             x: -30
-
-
-
         }, '<');
 
 });
