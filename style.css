@@ -21,9 +21,8 @@
 
 }
 
-.logo.faded {
+.logo.change {
 
-    filter: grayscale(100%);
     width: 46%;
 }
 

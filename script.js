@@ -5,14 +5,14 @@ $(document).ready(function() {
             element.classList.add("shadowed");
             var logo = document.querySelector(".logo");
             logo.classList.remove("position");
-            logo.classList.add("faded");
+            logo.classList.add("change");
 
         } else {
             var element = document.querySelector(".navbar");
             element.classList.remove('shadowed');
             var logo = document.querySelector(".logo");
             logo.classList.add("position");
-            logo.classList.remove("faded");
+            logo.classList.remove("change");
 
         }
     });
