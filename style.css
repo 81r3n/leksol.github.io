@@ -97,9 +97,6 @@ html {
     padding: 40px 50px;
 
     box-shadow: 19px 0px 15px -14px rgba(0, 0, 0, 0.1);
-
-
-
     z-index: 100;
 
 }
@@ -109,6 +106,16 @@ html {
     bottom: -100px;
     left: 30%;
     color: grey;
+}
+
+.scroll-arrow i {
+
+    font-size: 24px;
+    opacity: 0;
+}
+
+.scroll-arrow span {
+    opacity: 0;
 }
 
 /*typography*/
@@ -286,6 +293,18 @@ p.mv-card-description {
 
 }
 
+.modal-title {
+    color: #AAAAAA;
+    font-size: 28px;
+
+
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+
 /*typography*/
 /*button*/
 
@@ -376,7 +395,61 @@ p.mv-card-description {
 
 /*button*/
 
+/*SECTIONS --------------------------------*/
+/*about section*/
+
+
+#about-us {
+    background-color: #404040;
+    padding-block: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+#about-us .image-block {
+
+    position: absolute;
+    top: 0;
+    left: -30px;
+    right: 60%;
+    bottom: 0;
+
+
+}
+
+#about-us .image-block img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+
+
+}
+
 /*business section*/
+#business {
+
+    background-color: #404040;
+    position: relative;
+    padding-block: 50px;
+}
+
+#business .item {
+
+    position: relative;
+    z-index: 500;
+}
+
+#business .left-white {
+
+    width: 75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 400;
+}
+
 .business-content {
     background-color: white;
     margin-right: -100px;
@@ -443,13 +516,54 @@ p.mv-card-description {
     color: white;
 }
 
+/*Mission vision section*/
+#mission-vision {
+    background-color: #404040;
+    padding-block: 80px;
+
+
+
+
+}
+
+.mv-card-image {
+
+    opacity: 0.7;
+    width: 65px;
+}
+
 /*footer*/
+
+#footer {
+
+    background-color: #404040;
+    padding-bottom: 80px;
+}
+
+.footer-box {
+    padding-inline: 160px;
+    padding-block: 80px;
+}
+
+.line-element {
+
+    height: 2px;
+    width: 100%;
+    background-color: #e7e7e7;
+    margin-top: 40px;
+    height: 2px;
+    width: 100%;
+    background-color: #e7e7e7;
+    margin-top: 40px;
+}
+
+
 
 .footer a {
 
     text-decoration: none;
     color: grey;
-    font-size: 17px;
+    font-size: 16px;
     transition: 0.25s;
     margin-block: 5px;
     display: inline-block;
@@ -460,7 +574,7 @@ p.mv-card-description {
 .footer p {
 
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     transition: 0.25s;
     margin-block: 5px;
     color: #949494;
@@ -499,4 +613,23 @@ a.social-icons {
 
     z-index: -1 !important;
 
+}
+
+.copyright p {
+
+    color: #313131;
+    font-size: 14px;
+}
+
+.copyright a {
+
+    color: #313131;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.copyright a:hover {
+
+    color: #9B9B9B;
 }

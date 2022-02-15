@@ -171,14 +171,15 @@ mvSection.to(".mv-section-heading span", {
     .from(".mv-card", { duration: 2, y: 35, opacity: 0, stagger: 0.2 }, "-=1.1");
 
 gsap.from(".footer-box", {
-    duration: 2,
+    duration: 2.5,
     opacity: 0,
     scale: 0.9,
     ease: "power3.out",
     scrollTrigger: {
         trigger: ".footer-box",
-        start: "top 70%",
+        start: "-200px 70%",
         end: "bottom bottom",
-        toggleActions: "play none none reverse"
+        toggleActions: "play none none reset",
+        markers: true
     }
 });
