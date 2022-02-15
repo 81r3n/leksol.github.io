@@ -36,7 +36,8 @@ let aboutus = gsap.timeline({
         trigger: ".secondary-heading.animated",
         start: "top 70%",
         end: "=+200 bottom",
-        toggleActions: "play none none reverse"
+        toggleActions: "play none none reverse",
+        markers: true
     },
     defaults: {
         ease: "power1.inOut"
@@ -46,17 +47,21 @@ let aboutus = gsap.timeline({
 aboutus.to(".secondary-heading.animated span", {
 
         opacity: 1,
-        stagger: { amount: 1 },
+        stagger: {
+            amount: 1,
+            from: "end"
+        },
 
 
     })
-    .from(".description.aboutus, .my-btn.about", {
+    .from(".description.about, .my-btn.about", {
 
         duration: 1,
         opacity: 0,
-        y: 30,
+        x: 30,
 
-    }, '<');
+    }, '<')
+    .from("#about-us .photo", { duration: 1.5, opacity: 0, x: -30 }, "<");
 
 // business titles fade stagger
 
@@ -175,7 +180,7 @@ gsap.from(".footer-box", {
         trigger: ".footer-box",
         start: "-200px 70%",
         end: "bottom bottom",
-        toggleActions: "play none none reset",
-        markers: true
+        toggleActions: "play none none reset"
+
     }
 });

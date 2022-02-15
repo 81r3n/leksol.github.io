@@ -395,7 +395,7 @@ p.mv-card-description {
 
 #about-us {
     background-color: #404040;
-    padding-block: 120px;
+    padding-block: 110px;
     position: relative;
     overflow: hidden;
 }
@@ -403,10 +403,10 @@ p.mv-card-description {
 #about-us .image-block {
 
     position: absolute;
-    top: 0;
+    top: 0px;
     left: -30px;
     right: 60%;
-    bottom: 0;
+    bottom: 0px;
 
 
 }
