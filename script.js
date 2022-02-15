@@ -16,8 +16,6 @@ $(document).ready(function() {
     });
 });
 
-
-
 // hero elements -  animation
 gsap.set(".coolText div", { yPercent: -103 });
 gsap.set(".coolText", { autoAlpha: 1 });
