@@ -110,18 +110,18 @@ businessItems.forEach(function(item, index) {
 // side-fixed business title animation
 gsap.registerPlugin(ScrollTrigger);
 gsap.to(".businessText", {
-    duration: 0.5,
+    duration: 1,
     opacity: 1,
     display: 'block',
-    ease: "slowMo",
+    ease: "power1.inOut",
     right: 75,
     scrollTrigger: {
         trigger: ".triggerBusinessText",
-        start: "top center",
+        start: "top 65%",
         end: "top 200",
         endTrigger: ".endBusinessText",
-        toggleActions: "play reverse restart reverse"
-        // markers: true
+        toggleActions: "play reverse restart reverse",
+        markers: true
     }
 });
 
