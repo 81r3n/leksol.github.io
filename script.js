@@ -16,6 +16,11 @@ $(document).ready(function() {
     });
 });
 
+
+
+
+
+
 // hero elements -  animation
 gsap.set(".coolText div", { yPercent: -103 });
 gsap.set(".coolText", { autoAlpha: 1 });
@@ -170,4 +175,34 @@ mvSection.to(".mv-section-heading span", {
     })
     .from(".mv-card", { duration: 2, y: 35, opacity: 0, stagger: 0.2 }, "-=1.6")
 
-    .from(".footer-box", { duration: 2, opacity: 0, scale: 0.95, ease: "slowMo.out" }, '-=2');
+// .from(".footer-box", { duration: 2, opacity: 0, scale: 0.95, ease: "slowMo.out" }, '-=2');
+
+// Internal pages
+
+
+
+gsap.from(".page-banner img", { duration: 3, x: -100, y: -100, opacity: 0 });
+let pages = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".page-heading",
+            start: "top 70%",
+            end: "=+200 bottom",
+            toggleActions: "play none none reverse"
+
+        },
+        defaults: {
+            ease: "power1.inOut"
+        }
+    })
+    .to(".page-heading span", {
+
+        opacity: 1,
+        y: 0,
+        stagger: {
+            amount: 1,
+            from: "end"
+        },
+
+
+    })
+    .from(".breadcrumb", { duration: 2, opacity: 0 }, "-=1.2");
