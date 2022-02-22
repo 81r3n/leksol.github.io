@@ -15,6 +15,7 @@
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <link href="bs-icons/font/bootstrap-icons.css" rel="stylesheet">
     <!-- animation on scroll  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
@@ -130,6 +131,7 @@
     </section>
     <!-- spacing -->
     <section class="section-spacing hero"></section>
+    <!-- about us -->
     <section id="about-us" class="aboutus">
         <div class="container h-100">
             <div class="row h-100 justify-content-center align-items-center">
@@ -366,7 +368,7 @@
     </section>
     <!-- footer contact details -->
     <footer id="footer" class="footer">
-        <div class="container-lg bg-light h-100 footer-box">
+        <div class="container-lg bg-light h-100 footer-box" data-aos="fade" data-aos-duration="3000">
             <div class="row justify-content-between">
                 <img class="footer-logo-mobile mx-auto d-lg-none mb-4" src="assets/images/footer-logo.png" alt="">
                 <div class="col-lg-6 footer-item text-center text-lg-start">
@@ -527,6 +529,11 @@
     <script src="assets/js/ScrollTrigger.min.js"></script>
     <!-- custom js -->
     <script src="script.js"></script>
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+    AOS.init();
     </script>
     <!-- owl carousel -->
     <script src="assets/js/owl.carousel.min.js">
