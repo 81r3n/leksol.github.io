@@ -19,7 +19,7 @@ $(document).ready(function() {
 // });
 
 
-hero elements - animation
+// hero elements - animation
 gsap.set(".coolText div", { yPercent: -103 });
 gsap.set(".coolText", { autoAlpha: 1 });
 const tl = gsap.timeline({})
