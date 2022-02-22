@@ -16,16 +16,16 @@ $(document).ready(function() {
     });
 
     // hero elements -  animation
-    gsap.set(".coolText div", { yPercent: -103 });
-    gsap.set(".coolText", { autoAlpha: 1 });
-    const tl = gsap.timeline({})
-    tl.from('#carouselExampleControls', { duration: 3, x: 100, y: -100, opacity: 0 })
-        .from('.navbar-brand, .logo, .nav-item', { duration: 3, autoAlpha: 0 }, '<')
+    // gsap.set(".coolText div", { yPercent: -103 });
+    // gsap.set(".coolText", { autoAlpha: 1 });
+    // const tl = gsap.timeline({})
+    // tl.from('#carouselExampleControls', { duration: 3, x: 100, y: -100, opacity: 0 })
+    //     .from('.navbar-brand, .logo, .nav-item', { duration: 3, autoAlpha: 0 }, '<')
 
-        .to(".coolText div", { duration: 2, yPercent: 0, stagger: 0.05, ease: "expo.inOut" }, "-=3.5")
-        .to(".coolText div:not([data-char='.'])", { duration: 1, yPercent: 103, stagger: 0.1, ease: "expo.inOut" })
-        .to(".scroll-arrow .fa-solid, .scroll-arrow span", { duration: 1, opacity: 1, ease: "ease.Out" }, "<+2")
-        .to(".scroll-arrow .fa-solid, .scroll-arrow span", { duration: 0.8, y: 20, opacity: 1, repeat: -1, yoyo: true, ease: "ease-out" }, "<");
+    //     .to(".coolText div", { duration: 2, yPercent: 0, stagger: 0.05, ease: "expo.inOut" }, "-=3.5")
+    //     .to(".coolText div:not([data-char='.'])", { duration: 1, yPercent: 103, stagger: 0.1, ease: "expo.inOut" })
+    //     .to(".scroll-arrow .fa-solid, .scroll-arrow span", { duration: 1, opacity: 1, ease: "ease.Out" }, "<+2")
+    //     .to(".scroll-arrow .fa-solid, .scroll-arrow span", { duration: 0.8, y: 20, opacity: 1, repeat: -1, yoyo: true, ease: "ease-out" }, "<");
 });
 
 
