@@ -777,6 +777,11 @@ a.social-icons {
         z-index: 1 !important;
     }
 
+    .aboutus .photo {
+        margin-bottom: 35px;
+    }
+
+
     .aboutus .container .row {
         position: relative;
         z-index: 100;
@@ -943,6 +948,11 @@ a.social-icons {
         font-size: 20px;
         margin-left: 0px;
         margin-inline: 10px;
+    }
+
+    .description.dark {
+        font-size: 13px;
+
     }
 
 
