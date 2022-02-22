@@ -37,7 +37,6 @@
 
 html {
     scroll-padding-top: 65px;
-    scroll-behavior: smooth;
 }
 
 .navbar-light .navbar-nav .nav-link {
