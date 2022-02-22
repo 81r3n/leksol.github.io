@@ -129,7 +129,7 @@ html {
 
 .coolText.first {
     font-size: 40px;
-    color: red;
+    color: #AAAAAA;
 
 }
 
@@ -752,6 +752,7 @@ a.social-icons {
 
     .coolText.first div {
         color: rgba(255, 255, 255, 0.7);
+        color: red;
     }
 
     .coolText.second div {
@@ -788,6 +789,7 @@ a.social-icons {
         left: 0px;
         right: 0;
         bottom: 0px;
+        z-index: 0 !important;
     }
 
     .aboutus .image-block img {
