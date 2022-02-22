@@ -453,7 +453,6 @@ p.mv-card-description {
     padding-block: 110px;
     position: relative;
     overflow: hidden;
-    z-index: 2;
 }
 
 .aboutus .image-block {
@@ -462,7 +461,6 @@ p.mv-card-description {
     left: -30px;
     right: 60%;
     bottom: 0px;
-    z-index: 1;
 }
 
 .aboutus .image-block img {
@@ -773,7 +771,6 @@ a.social-icons {
         padding-block: 80px;
         position: relative;
         overflow: hidden;
-        z-index: 1 !important;
     }
 
     .aboutus .photo {
@@ -783,7 +780,6 @@ a.social-icons {
 
     .aboutus .container .row {
         position: relative;
-        z-index: 100;
     }
 
     .aboutus .image-block {
@@ -792,7 +788,6 @@ a.social-icons {
         left: 0px;
         right: 0;
         bottom: 0px;
-        z-index: 0 !important;
     }
 
     .aboutus .image-block img {
