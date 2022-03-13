@@ -715,6 +715,10 @@ a.social-icons {
 
 /*MEDIA Q*/
 @media(max-width: 1200px) {
+    html {
+        scroll-padding-top: 350px;
+    }
+
     .footer-box {
         padding-inline: 80px;
         padding-block: 50px;
