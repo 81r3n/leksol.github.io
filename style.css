@@ -684,7 +684,7 @@ a.social-icons {
 .page-content-block {
     background-color: #404040;
     padding-block: 50px;
-    height: 500px;
+    min-height: 500px;
 }
 
 
