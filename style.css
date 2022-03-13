@@ -794,6 +794,7 @@ a.social-icons {
         right: 0;
         bottom: 0px;
         z-index: 0 !important;
+        display: none;
     }
 
     .aboutus .image-block img {
