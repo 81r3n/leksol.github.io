@@ -681,6 +681,10 @@ a.social-icons {
     color: #A8A8A8;
 }
 
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #CCCCCC;
+}
+
 .page-content-block {
     background-color: #404040;
     padding-block: 50px;
