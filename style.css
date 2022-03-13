@@ -730,6 +730,14 @@ a.social-icons {
 }
 
 @media(max-width: 991.5px) {
+    .scroll-arrow {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #AFAFAF;
+    }
+
     .navbar-brand {
         flex-basis: 280px;
     }
