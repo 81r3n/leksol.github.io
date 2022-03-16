@@ -25,17 +25,15 @@
 
 /*mobile menu*/
 .logo {
-    width: 60%;
+    width: 55%;
     position: relative;
     transition: 0.5s;
-    position: relative;
-    top: 10px;
 }
 
-.logo.change {
+/*.logo.change {
     top: 0;
     width: 42%;
-}
+}*/
 
 html {
     scroll-padding-top: 65px;
