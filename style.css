@@ -36,13 +36,13 @@
 }*/
 
 html {
-    scroll-padding-top: 65px;
+    scroll-padding-top: 45px;
 }
 
 .navbar-light .navbar-nav .nav-link {
     font-family: 'PT Sans Narrow', sans-serif;
     letter-spacing: 0.7px;
-    font-size: 17px;
+    font-size: 17.2px;
     color: #5F5F5F;
     transition: 300ms;
     margin-left: 16px;
@@ -69,7 +69,7 @@ html {
     padding: 45px;
     background-color: #fff;
     left: 0;
-    right: 52%;
+    right: 58%;
     width: 40%;
     min-height: 60%;
     top: 50%;
@@ -205,7 +205,7 @@ html {
     text-transform: uppercase;
     font-size: 32px;
     color: #CACACA;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
     letter-spacing: 2px;
     font-weight: 700;
 }
@@ -298,7 +298,9 @@ p.mv-card-description {
     line-height: 1.6;
 }
 
-.modal-title {
+/*busiess modal pages*/
+
+/*.modal-title {
     color: #d1d1d1;
     font-size: 24px;
     font-family: 'PT Sans', sans-serif;
@@ -381,7 +383,7 @@ p.mv-card-description {
 
 .text-underline.purple {
     background-color: #9480BF;
-}
+}*/
 
 /*typography*/
 /*button*/
@@ -517,7 +519,7 @@ p.mv-card-description {
     position: fixed;
     top: 60%;
     transform: translateY(-60%);
-    right: 75px;
+    right: 50px;
     opacity: 0;
     z-index: 300;
 }
@@ -533,9 +535,9 @@ p.mv-card-description {
 
 .business-image-wrapper {
     width: 100%;
-    height: 400px;
+    height: 450px;
     position: relative;
-    right: 70px;
+    right: 25px;
     overflow: hidden;
 }
 
@@ -662,7 +664,7 @@ a.social-icons {
 
 /*Internal Pages  --------------------------------------*/
 /*about us*/
-.page-banner img {
+.page-banner img.bg {
     height: 80vh;
     width: 100%;
     object-fit: cover;
@@ -688,8 +690,9 @@ a.social-icons {
 
 .page-content-block {
     background-color: #404040;
-    padding-block: 50px;
-    height: 500px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    min-height: 600px;
 }
 
 
@@ -732,6 +735,8 @@ a.social-icons {
     .navbar-nav {
         padding: 30px;
     }
+
+
 }
 
 @media(max-width: 991.5px) {
@@ -1361,4 +1366,36 @@ a.newsPostLink:hover {
     font-size: 28px;
     color: #828282;
     color: rgba(0, 0, 0, 0.65);
+}
+
+/*Internal pages - Business pages*/
+
+
+section.businessPage {
+
+    background-color: #404040;
+    padding-block: 70px;
+
+
+
+}
+
+.businessPage p {
+    color: rgba(255, 255, 255, .7);
+}
+
+.businessPage .flip-card p {
+
+    color: #fff;
+}
+
+
+@media(min-width: 768px) {
+
+    .businessPage .flip-card p {
+
+        color: #888888;
+    }
+
+
 }

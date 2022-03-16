@@ -136,7 +136,7 @@ mvSection.to(".mv-section-heading span", {
     .from(".mv-card", { duration: 2, y: 35, opacity: 0, stagger: 0.2 }, "-=1.6")
 // .from(".footer-box", { duration: 2, opacity: 0, scale: 0.95, ease: "slowMo.out" }, '-=2');
 // Internal pages
-gsap.from(".page-banner img", { duration: 3, x: -100, y: -100, opacity: 0 });
+gsap.from(".page-banner img.bg", { duration: 3, x: -100, y: -100, opacity: 0 });
 let pages = gsap.timeline({
         scrollTrigger: {
             trigger: ".page-heading",
@@ -156,7 +156,7 @@ let pages = gsap.timeline({
             from: "end"
         },
     })
-    .from(".breadcrumb", { duration: 2, opacity: 0 }, "-=1.2");
+    .from(".breadcrumb, .business-logo", { duration: 2, opacity: 0 }, "-=1.2");
 
 $('.nav-link').on('click', function() {
     $('.navbar-collapse').collapse('hide');
