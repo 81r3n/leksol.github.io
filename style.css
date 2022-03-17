@@ -551,7 +551,7 @@ p.mv-card-description {
     position: absolute;
     inset: 0;
     background-color: #000;
-    opacity: 0.3;
+    opacity: 0.25;
     display: flex;
     justify-content: center;
     align-items: center;
